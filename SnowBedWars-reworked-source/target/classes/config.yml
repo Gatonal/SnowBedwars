@@ -1,0 +1,31 @@
+prefix: '&1[&bSnow&1] &f'
+lobby-world: world
+database:
+  type: SQLITE
+  sqlite-file: snow.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: snow
+    username: root
+    password: ''
+arena:
+  countdown-seconds: 30
+  ending-seconds: 10
+  minimum-players: 2
+  restore:
+    mode: COPY
+    templates-folder: maps
+quests:
+  daily-target: 5
+  weekly-target: 25
+prestige:
+  global-xp-multiplier: 1.0
+scoreboard:
+  title: '&1[&bSnow&1]'
+  update-ticks: 20
+generators:
+  iron-interval-ticks: 20
+  gold-interval-ticks: 80
+  diamond-interval-ticks: 600
+  emerald-interval-ticks: 1200

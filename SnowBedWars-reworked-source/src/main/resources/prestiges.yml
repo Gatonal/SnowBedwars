@@ -1,0 +1,17 @@
+# The nearest lower key is selected for every level. Administrators may customise tags safely.
+prestiges:
+  level-0: { tag: '&7[{level}✫]', name: Stone }
+  level-100: { tag: '&f[{level}✫]', name: Iron }
+  level-200: { tag: '&6[{level}✫]', name: Gold }
+  level-300: { tag: '&b[{level}✫]', name: Diamond }
+  level-400: { tag: '&a[{level}✫]', name: Emerald }
+  level-500: { tag: '&9[{level}✫]', name: Sapphire }
+  level-600: { tag: '&c[{level}✫]', name: Ruby }
+  level-700: { tag: '&d[{level}✫]', name: Crystal }
+  level-800: { tag: '&9[{level}✫]', name: Opal }
+  level-900: { tag: '&5[{level}✫]', name: Amethyst }
+  level-1000: { tag: '&c* &6* &e* &a* &b✫', name: Rainbow }
+  level-1100: { tag: '&7[&f****&7✪&7]', name: Iron Prime }
+  level-2000: { tag: '&8[&7*&f&7*✪&8]', name: Mirror }
+  level-2100: { tag: '&b[{level}❀]', name: Light }
+  level-3000: { tag: '&c[{level}❀]', name: Fire }

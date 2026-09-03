@@ -1,0 +1,23 @@
+name: SnowBedWars
+main: com.roberto.snow.Snow
+version: 1.0.0
+author: Roberto
+description: BedWars Snow para Spigot 1.8.9
+commands:
+  bw:
+    aliases: [bedwars, snow]
+    description: Comando principal do Snow BedWars.
+  leave:
+    aliases: [bwleave]
+    description: Sair da arena atual.
+  rejoin:
+    aliases: [bwrejoin]
+    description: Retornar para a arena da qual saiu.
+  shout:
+    aliases: [bwshout]
+    description: Enviar mensagem global à arena.
+permissions:
+  snow.admin:
+    default: op
+  snow.play:
+    default: true
